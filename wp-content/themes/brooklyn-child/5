@@ -1,0 +1,597 @@
+/*
+Theme Name: Brooklyn Riliance
+Theme URI: http://www.unitedthemes.com
+Description: Creative Portfolio
+Version: 2.8.1
+Author: United Themes
+Author URI: http://www.unitedthemes.com
+Template: brooklyn
+*/
+
+@import url("../brooklyn/style.css");  
+
+body {font-size:1.05rem;}
+
+nav#navigation ul {float:left;}
+
+ul#menu-menu-1 li.ut-home-link {display:none;} /*hide first menu linking to it;s homepage*/
+ul#menu-master-menu li.ut-home-link {display:none;} /*hide first menu linking to it;s homepage*/
+
+#navigation ul.sub-menu li > a { color:#DEDEDE;}
+
+/* free demo menu item */
+/* ul#menu-master-menu > li.mbut-freedemo { margin-left:74%;} */
+ul#menu-master-menu > li.mbut-freedemo { 
+padding-top: 1.3rem;
+padding-bottom: 0.5rem;
+line-height: 33px;
+
+margin-left:5rem; /*gap*/
+Xfloat:right;
+}
+
+ul#menu-master-menu > li.mbut-freedemo a {
+/*margin-left:74%;*/
+display:block;
+color:white!important; Xbackground-color:#62B82B!important; Zpadding:0.2rem; 
+color:white!important; background-color:#62B82B!important; Zpadding:0.2rem; 
+border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border: 2px solid #62B82B;
+line-height: auto;
+padding-right:0.65rem;
+padding-left:0.65rem;
+/*
+margin-top: 10px;
+height: 50px;
+*/
+text-aling:center;
+}
+
+
+/*login menu item*/
+ul#menu-master-menu > li.mbut-login {
+padding-top: 1.3rem;
+padding-bottom: 0.5rem;
+line-height: 33px;
+
+Xfloat:right;
+}
+ul#menu-master-menu > li.mbut-login  a{ display:block; margin-left: 5px; border:2px solid #62B82B; color:#62B82B; Xbackground-color:#62B82B;
+padding-right:4px;
+padding-left:5px;
+border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+text-decoration:none;
+padding-left:0.5rem;
+padding-right:0.5rem;
+vertical-align:middle;
+
+/*
+margin-top: 10px;
+margin-bottom: 10px;
+height: 40px;
+vertical-align: middle;
+position: relative; top:-20px;
+*/
+}
+ul#menu-master-menu > li.mbut-login  a:hover{text-decoration:underline; color:white;}
+ul#menu-master-menu > li.mbut-login  a:visited {color:#62B82B;}
+
+/* #menu-master-menu > li:nth-child(4) {list-style-type: none;} */
+ul#menu-master-menu > li.mbut-login  a:after {content: "";}
+ul#menu-master-menu > li.mbut-freedemo  a:after {content: "";}
+
+/*add .hidemenuitem in wordpresss menu to hide items */
+li.hidemenuitem.menu-item.menu-item-type-post_type.menu-item-object-page {
+display: none!important;
+}
+
+
+h1.hero-title {border-top: 3px solid white;
+border-bottom: 3px solid white;
+font-weight:900;
+font-size: 50px;}
+
+h3.parallax-title, h2.parallax-title { color:#62B82B;
+font-family: ralewaylight,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+}
+
+div.hero-inner div.hdb {
+Xborder:1px dotted red;}
+div.hdb  span {Xdisplay:none;}
+
+
+/* replaced by div homepage-stamp code in HERO
+div.hero-inner {background-image: url('http://192.185.88.244/~devrilia/wp-content/uploads/2015/01/badge-transp.png');
+background-repeat:no-repeat;
+background-position: 85% 75%;
+}
+*/
+div.homepage-stamp {position:relative; top:-2.5rem;}
+
+.hero-title span  {font-weight:inherit;}
+
+div.we-are-gold {margin-left:2%; margin-right:2%;}
+
+
+div.ut-one-third  {  /*to fix services grid */
+margin-right: 2%;
+font-size:83%;
+}
+Xdiv.ut-one-third {  
+Xwidth:29%!important;}
+
+
+Xdiv.ut-service-column {
+height: 176px!important;  /*recommended by support? shouldn;t have effect on width naywas?*/
+overflow:visible;
+}
+
+
+body.page-id-8 div.ut-one-fourth:nth-child(6) > div:nth-child(1) > span:nth-child(2):after,
+Xbody.page-id-8 div.ut-one-fourth:nth-child(8) > div:nth-child(1) > span:nth-child(2):after {
+   content: "%";
+}
+
+/*
+#our-working-progress > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) {
+background-image: url('http://192.185.88.244/~devrilia/wp-content/uploads/2015/01/icon-powerfull-resized.gif');
+background-repeat:no-repeat;
+/*background-size:cover;*/
+background-position:center;
+background-size: contain;
+height:324px;
+padding-right:4px;
+padding-left:5px;
+padding-top: 8rem;
+}
+*/
+
+/*can be set through teme*/
+X.footer.ut-footer-dark {
+    background: none repeat	scroll 0% 0% #75AC2C; /*or? #62B82B*/	
+}
+div.ut-footer-area {color:white;}
+div.ut-footer-area ul.sidebar a,
+div.ut-footer-area ul.sidebar a:visited {color:silver;}
+div.footer-content {color:black;}
+
+
+
+div.ut-spacer {
+    width: 100%;
+    display: block;
+    height: 21px!important;
+    clear: both;
+	background-repeat:no-repeat;
+	background-position: center;
+    background-image: url("http://192.185.88.244/~devrilia/about-risk-management/wp-content/uploads/sites/10/2015/02/section-line_min.png");
+	margin-top:2rem;
+	margin-bottom:2rem;
+	}
+	
+div.about-riskmgmt-tracking-column {
+padding:3rem 3rem 3rem 0;
+text-align:left;
+}	
+
+.copyright { display: none !important; }
+
+/* was for HERO button, replaced by menu one
+a#client-login {float:right; display:block; padding: 5px; border:2px solid white;}
+*/
+
+/*footer styling*/
+div.footer-content {font-size:0.6rem; color:white; letter-spacing:0;}
+
+
+/*footer menu columns*/
+div.ut-footer-area li.widget_nav_menu ul.menu>li {
+display: inline-block;
+width: 8.7rem; /*was for four columns*/
+width:6.7rem;
+} 
+div.ut-footer-area>div.grid-container>div.grid-33:nth-child(1) {
+width:15%!important;
+Xborder:1px solid pink!important;
+}
+div.ut-footer-area>div.grid-container>div.grid-33:nth-child(2) {
+width:50%!important;
+}
+
+
+/*footer links colour*/
+div.ut-footer-area a:hover {color:white!important; text-decoration:underline;}
+
+/*social links colour*/
+ul.ut-footer-so li a, ul.ut-footer-so li a i {color:silver!important;}
+ul.ut-footer-so li a:hover, ul.ut-footer-so li a:hover i {color:white!important;}
+
+/*foot menu text*/
+
+div.ut-footer-area li.widget_nav_menu {font-size:0.75rem;
+Xcolor:pink;}
+div.ut-footer-area div.grid-33 {padding-left: 8px; padding-right:8px;}
+
+div.ut-footer-area li.widget_nav_menu ul.menu>li {
+vertical-align: top!important;
+border-bottom: 0px solid #EFEFEF;
+padding-bottom:0px;
+}
+
+
+div.textwidget img {margin:0.3rem;}
+
+div.display-posts-listing  li.listing-item {font-size:1.3rem;}
+/*
+ha-transparent #navigation ul li a:after
+#menu-master-menu > li:nth-child(4) > a:nth-child(1) */
+
+ul#menu-master-menu li.menu-unhover>a:hover{
+cursor: default;
+}
+div.ut-footer-area li.widget_nav_menu li.menu-unhover>a:hover{
+cursor: default;
+color:#3A6F18!important;
+color:#62B82B!important;
+text-decoration:none;
+}
+
+div.ut-footer-area li.widget_nav_menu ul.menu li.menu-unhover>a {
+cursor: default;
+/*display:none;*/
+font-size:83%;
+line-height:auto;
+letter-spacing:0.1px;
+color:#62B82B;
+/* color:#3A6F18; dark green for green background*/
+moz-transition: none!important;
+    -webkit-transition: none!important;
+    -o-transition: color 0 ease-in!important;
+    transition: none!important;
+}
+div.ut-footer-area li.widget_nav_menu ul.menu li.menu-unhover:before
+{
+content: none;}
+
+div.ut-footer-area li.widget_nav_menu ul.sub-menu li:before {top:5px; 
+Xborder:1px solid white;}
+
+div.ut-footer-area li.widget_nav_menu ul.menu li.mbut-freedemo,
+div.ut-footer-area li.widget_nav_menu ul.menu li.mbut-login {
+display:none;
+}
+
+div.ut-footer-area li.widget_nav_menu  li {padding-left: 3px; } /*minimize spacing to fit i nthe columns*/
+div.ut-footer-area li.widget_nav_menu  li:before {content: none;}
+div.ut-footer-area li.widget_nav_menu  ul.sub-menu {border-left: 1px solid #3A6F18;}
+
+div.ut-footer-area li.widget_nav_menu ul.menu ul.sub-menu li{
+    padding-top: 5px;
+    margin-top: 0px;
+	line-height:105%;
+    border-top: 0px solid #EFEFEF;
+	 border-bottom: 0px solid #EFEFEF;
+	 font-size:0.65rem;
+	}
+
+
+div#tiny-carousel-slider1 a.buttons {
+    background: none repeat scroll 0% 0% silver!important;
+	line-height:135%;
+	Xborder:0px solid green;
+	}	
+		
+div#tiny-carousel-slider1 a.buttons:hover  {
+background-color:#62B82B!important;
+color:white!important;
+}
+	
+div#tiny-carousel-slider1 .overview li {
+    float: left;
+    margin: 0px 35px 0px 0px;
+    padding: 1px;
+    height: 170px;
+    border: 0px solid #DCDCDC;
+	}
+div#tiny-carousel-slider1 .overview li img{max-height:170px!important;
+position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+div#blog-homepage a.image img {float: left;
+padding:7px; 
+}
+div#blog-homepage  a.title {
+color:#62B82B!important;
+
+}
+span.excerpt-dash {clear:both;}
+
+div.contact-details {padding:2.5rem; padding-top:0; }
+
+div.services-break {clear:both;}
+
+body.page-template-newsblog div.listing-item>a.image img {
+float:left!important;
+Xborder:1px solid red;
+padding:0.5rem;
+}
+
+body.page-template-newsblog div.listing-item>a.title {
+font-size: 1.35rem!important;
+Xborder:1px solid pink;
+clear:left;
+}
+
+body.page-template-newsblog div.listing-item span.date{clear:both;}
+
+/*price calculator*/
+form#cp_calculatedfieldsf_pform_1 {
+width:50%; margin: 0 auto 0 auto;
+}
+form#cp_calculatedfieldsf_pform_1 h1 {
+color: #62B82B;
+font-family: ralewaylight,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+form#cp_calculatedfieldsf_pform_1 select#fieldname6_1{
+text-align:center!important;
+width:auto!important;
+border: 0px solid #62B82B;
+background-color:#62B82B;
+color:white;
+font-size:1.3rem;
+}
+
+form#cp_calculatedfieldsf_pform_1 {text-align:center;}
+form#cp_calculatedfieldsf_pform_1 div.dfield {text-align:center;}
+
+form#cp_calculatedfieldsf_pform_1 input#fieldname4_1,
+form#cp_calculatedfieldsf_pform_1 input#fieldname7_1{
+border: 0px solid #DDD;
+text-align:center;
+font-size:1.3rem;
+color:#62B82B;
+width:auto!important;
+margin: 0 auto 0 auto;
+}
+
+form#cp_calculatedfieldsf_pform_1 input#fieldname4_1:before,
+form#cp_calculatedfieldsf_pform_1 input#fieldname7_1:before {
+content: "x";
+}
+
+ul#ut-mobile-menu  li.menu-unhover>a.external {
+cursor: default;
+font-size:65%;
+text-indent:-0.5rem;
+}
+ul#ut-mobile-menu  li.menu-unhover>a.external:after {
+    content: none;
+	}
+
+/*menu text*/	
+.ut-header-dark .ut-mobile-menu a, .ut-mobile-menu a,
+#navigation ul.sub-menu li > a  {
+color:#D7D7D7!important;
+}
+#navigation ul.sub-menu li > a:hover {color:white!important;} 
+
+/*srtyling the Pricing Form*/
+
+span.wpcf7-list-item input:checked + span.wpcf7-list-item-label {color:#62B82B;}
+
+span.wpcf7-list-item  {
+display:block;
+clear:both;
+width:auto;
+Xborder:1px solid silver;}
+
+span.wpcf7-list-item  input[type='checkbox'] {
+padding:0.1rem; 
+border:1px solid #62b82b !important;
+Xvisibility: hidden;
+display:inline!important;
+width:3rem!important;
+}
+
+span.wpcf7-list-item  input[type='checkbox']:checked + label {
+border:1px solid red;
+background-color:green;}
+ 
+
+
+span.wpcf7-list-item  input[type='checkbox'],
+span.wpcf7-list-item  select{
+color: #7AC242;
+}
+input.wpcf7-submit {color:white;}
+
+
+/* forms in general*/
+
+body.page-id-217 .wpcf7-form input {border: 1px solid #62B82B; font-family:sans-serif; font-size:1rem; color:#62B82B;} /*grey #404040;*/
+
+.addmargins {margin-left:5rem; margin-right:5rem;}
+#wpcf7-f416-p217-o1 {margin-left:7rem; margin-right:7rem;}
+
+.wpcf7-list-item-label {font-size: 0.8rem; font-family:"ralewayregular",Helvetica Neue,Helvetica,Arial,sans-serif; color:#404040;}
+.dark .wpcf7-form input {padding-top:10px!important;padding-bottom:10px!important;}
+
+body.page-id-365 div.ut-one-third.ut-vertical-style {height:10.5rem; } /* fix service icons alignmnet*/
+
+
+/* accordions styling */	
+div.ut-accordion div.ut-accordion-heading {text-align: center; }	
+div.ut-accordion div.ut-accordion-heading a{ border:solid #62B82B; border-width: 0 0 2px 0; font-size: 1.15rem; padding: 0.25rem;
+padding-top: 0.35rem;
+}	
+div.ut-accordion div.ut-accordion-heading a:after{
+content: '\f078';
+    font-family: FontAwesome;
+	margin-left:0.3rem;
+	font-size:0.7rem;
+	vertical-align:middle;
+	}
+        /* more styles for the icon, like color, font-size, position, etc. */
+		
+		
+div.ut-accordion div.ut-accordion-heading a:hover {
+    color: white;
+	Xborder-width:4px;
+	border-color:#62B82B; 
+	background: #62B82B;
+	Xborder:0 0 4px 0 solid #62B82B; 
+}
+
+/* div#ut-accordion-parent-1 div.ut-accordion-heading a:hover:after {
+    
+}
+*/
+
+div.ut-accordion div.ut-accordion-heading a.active {
+    color: #FFF;
+    border: 0 0 1px 0 solid #62B82B;
+	background: none repeat scroll 0% 0% #62B82B;
+	}
+div.ut-accordion div.ut-accordion-heading a.active:after{
+content: '';	
+}
+
+/* T&C page accordions design */
+
+div.page-tc div.ut-accordion div.ut-accordion-heading {text-align: left; }	
+div.page-tc div.ut-accordion div.ut-accordion-heading a{ border:solid #404040;; border-width: 0 0 2px 0; font-size: 1rem; padding: 0.25rem;
+padding-top: 0.35rem;
+}	
+div.page-tc div.ut-accordion div.ut-accordion-heading a:after{
+content: '\f078';
+    font-family: FontAwesome;
+	margin-left:0.3rem;
+	font-size:0.7rem;
+	vertical-align:middle;
+	}
+        /* more styles for the icon, like color, font-size, position, etc. */
+		
+		
+div.page-tc div.ut-accordion div.ut-accordion-heading a:hover {
+    color: white;
+	Xborder-width:4px;
+	border-color:#404040; 
+	background: #404040;
+	Xborder:0 0 4px 0 solid #404040;
+}
+
+div.page-tc  div.ut-accordion div.ut-accordion-heading a.active {
+    color: #FFF;
+    border: 0 0 1px 0 solid #404040;
+	background: none repeat scroll 0% 0% #404040;
+	}
+div.page-tc  div.ut-accordion div.ut-accordion-heading a.active:after{
+content: '';	
+}
+
+
+
+body.home.page-id-8 section#ut-hero.parallax-background
+{
+animation: 130s linear 0s normal none infinite running animatedBackground!important; 
+/*slow down the background herp animation*/
+}
+
+body.page-id-365 div.grid-100 p {max-width:850px; margin-left:auto; margin-right:auto; /* only for compliance support */
+text-align:left!important;
+}
+/*div.grid-100 {
+max-width:850px;
+margin-left:auto; margin-right:auto;
+}
+*/
+
+Xdiv.ut-service-column p {text-align:center!important;} /* was used for compliance supp [before dropcaps] but ut-service-column is aligned left by default, ut-service-column horizontal is centered*/
+
+div.ut-accordion-heading {margin-bottom: 15px;}
+
+/* styles to use in pages*/
+
+.al-left {text-align:left!important;}
+
+.p50 {width:50%;} /* sets the element width to 50% of the parent  -will rpobably change this to arbitrary, as 50% is unpredictable*/
+.pcenter {margin-left:auto; margin-right:auto;} /*centers and element */
+.txtleft  {text-align:left!important;} /*align text to left*/
+.txtjust  {text-align:justify!important;} /*align text into a block*/
+.p850max{max-width:850px; } /* element wont get wider than 850px - to stop text stretching endlessly on high res widescreens */
+
+
+/*
+ul li {list-style-image: url('http://192.185.88.244/~devrilia/wp-content/themes//brooklyn-child/images/riliance-bullet-small.png');
+}
+*/
+/* list display tweaks
+ul.li-blocked li { display: inline-block; width: 30%;
+vertical-align: top;
+padding:0.3rem;
+}
+*/
+
+ul.li-blocked li { margin-bottom: 0.5rem; text-align:left;
+}
+
+div#blog-homepage div.display-posts-listing div.listing-item{
+padding-bottom: 0.4rem;
+border-bottom: 1px solid #62B82B;
+margin-bottom: 0.4rem;
+}
+
+div.page-tc {}
+
+
+
+
+
+
+
+@media only screen and (min-width: 860px) { 
+.50pc {width:50%;}
+.magrins
+}
+
+
+
+@media only screen and (max-width: 40em) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+
+div.ut-footer-area>div.grid-container>div.grid-33:nth-child(1) {
+}
+
+Xdiv.ut-footer-area.mobile-grid-100 {
+width:100%!important;}
+
+div.ut-footer-area>div.grid-container>div.mobile-grid-100:nth-child(1),
+div.ut-footer-area>div.grid-container>div.mobile-grid-100:nth-child(2)  {
+width:100%!important;
+}
+
+div.grid-33:nth-child(3) div.textwidget>img:nth-child(1) {margin:0;
+vertical-align: middle;}
+div.grid-33:nth-child(3) div.textwidget>img:nth-child(2)  {margin-left:2px;}
+
+div.mobile-grid-100 div#tiny-carousel-slider1 { 
+padding: 0px 27px 10px
+}
+
+/*mobile view - next button overlaps the logos*/
+div.mobile-grid-100 div#tiny-carousel-slider1  a.buttons.next {
+/*border:3px solid pink;
+z-index:-1;*/
+}
+
+} /*end media 640*/
