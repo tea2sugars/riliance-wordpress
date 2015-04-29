@@ -16,18 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'WPCACHEHOME', '/home/devrilia/public_html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('WP_CACHE', true); //Added by WP-Cache Manager
 define('DB_NAME', 'riliance-wp');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'r1');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'riliance');
 
 /** MySQL hostname */
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -78,8 +76,8 @@ define('WP_DEBUG', true);
 
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'localhost:8888');
-define('PATH_CURRENT_SITE', '/riliance_wp/');
+define('DOMAIN_CURRENT_SITE', 'riliance.theteapot.me.uk');
+define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
