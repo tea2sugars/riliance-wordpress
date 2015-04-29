@@ -18,16 +18,16 @@
 /** The name of the database for WordPress */
 define( 'WPCACHEHOME', '/home/devrilia/public_html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define('DB_NAME', 'devrilia_wrdp1');
+define('DB_NAME', 'riliance-wp');
 
 /** MySQL database username */
-define('DB_USER', 'devrilia_wrdp1');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '03veHWcotlFvT4h');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -78,8 +78,8 @@ define('WP_DEBUG', true);
 
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', '192.185.88.244');
-define('PATH_CURRENT_SITE', '/~devrilia/');
+define('DOMAIN_CURRENT_SITE', 'localhost:8888');
+define('PATH_CURRENT_SITE', '/riliance_wp/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
