@@ -74,7 +74,7 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', true);
 /** define( 'WP_ALLOW_MULTISITE', true );  proably too much! **/
 
-define('MULTISITE', true);
+define('MULTISITE', false);
 define('SUBDOMAIN_INSTALL', false);
 define('DOMAIN_CURRENT_SITE', 'riliance.theteapot.me.uk');
 define('PATH_CURRENT_SITE', '/');
